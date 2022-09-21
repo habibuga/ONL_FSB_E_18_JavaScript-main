@@ -13,3 +13,5 @@ class Polygon {
     console.log("Cześć jestem", this.name + ".");
   }
 }
+
+export default Polygon;

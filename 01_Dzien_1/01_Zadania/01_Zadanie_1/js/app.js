@@ -1,6 +1,6 @@
 // Implementacja map
 
-const myNumber = [1,2, 3, 4];
+const myNumber = [1, 2, 3, 4];
 
 console.log(myNumber.map((value, index, array) => {
     return value * 2;
