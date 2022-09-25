@@ -23,3 +23,13 @@ const asyncAction = () => {
  * Tutaj wpisz swój kod
  */
 
+async function getData() {
+  try {
+    const response = await asyncAction();
+    document.querySelector('#random-value').textContent = response.value;
+  } catch (error) {
+    document.querySelector('#message').textContent = error.errorMsg;
+  }
+}
+
+getData();
